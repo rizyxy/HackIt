@@ -85,14 +85,10 @@ font-family: 'Montserrat', sans-serif;
     .content {
         margin: 0%;
         text-align: center;
-    }
-
-    .content-paragraph {
-        margin-left: 2em;
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .content-button {
-        margin-left: 8em;
+        margin: auto;
     }
 }
