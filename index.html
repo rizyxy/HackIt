@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hack-It</title>
+        <link rel="stylesheet" type="text/css" href="./Components/main.css">
+        <link rel="stylesheet" type="text/css" href="./Components/navbar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="navbar">
+                <a id="logo">HACK-IT</a>
+                <a href="#" id="active">Home</a>
+                <a href="./class.html">Class</a>
+            </div>
+            <div class="content">
+                <div class="content-header">
+                    <h1>H4CK Y0UR BR4IN.</h1>
+                </div>
+                <div class="content-paragraph">
+                    <p>Hack-It adalah platform untuk belajar pemrograman dengan mudah untuk semua orang, dengan metode pembelajaran yang menarik</p>
+                </div>
+                <div class="content-button" onclick="navigateTo('./class.html')">
+                    <p>Hack</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    function navigateTo(url) {
+        window.location = url;
+    }
+</script>

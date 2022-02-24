@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0%;
+    padding: 0%;
+}
+
+.cards {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin-top: 2em;
+    margin-left: 4em;
+    column-gap: 2em;
+    row-gap: 2em;
+}
+
+.card {
+    padding: 2em;
+    border-style:solid;
+    border-color: white;
+}
+
+.card h4 {
+    letter-spacing: 0.2em;
+}
+
+.button {
+    padding: 0.2em 1em;
+    border-color: white;
+    border-style: solid;
+    width: 7em;
+}
+
+.button:hover {
+    width: 9em;
+    cursor: pointer;
+}
+
+.button:hover p::after {
+    content: "...";
+}
+
+.spacer {
+    padding: 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .cards {
+        grid-template-columns: 100%;
+        margin-right: 4em;
+    }
+}
